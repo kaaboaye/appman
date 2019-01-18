@@ -13,6 +13,7 @@ defmodule AppmanWeb.EnvironmentView do
       name: env.name,
       url: env.url,
       project_id: env.project_id,
+      meta: env.meta,
       updated_at: env.updated_at,
       inserted_at: env.inserted_at
     }
